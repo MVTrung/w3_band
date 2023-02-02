@@ -1,0 +1,36 @@
+
+/* Common */
+.row {
+    margin-left: -8px ;
+    margin-right: -8px ;
+ }
+
+ .row::after{
+    content: "";
+    display: block;
+    clear: both;
+ }
+ .col{
+    float: left;
+    padding-left: 8px;
+    padding-right: 8px;
+
+ }
+.col-half{
+    width: 50%;
+}
+.col-full{
+    width: 100%;
+}
+
+.mt-8{
+    margin-top: 8px;
+}
+.mt-16{
+    margin-top: var(--mt);
+}
+
+.text-white{
+    color: var(--white) !important;
+}
+/* main */

@@ -1,0 +1,16 @@
+:root{
+    /* color */
+    --white: #fff;
+    --gray: #ccc;
+    --black: #000;
+    --red: #f44336;
+    --green:#009688;
+    --hover-color: rgba(0, 0, 0, 0.6);
+
+    /* font-size */
+    --fz:15px;
+
+    /* margin - padding */
+    --pd:16px;
+    --mt: 16px;
+}
